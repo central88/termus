@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <meta http-equiv="refresh" content="delay_time; URL=new_website_url" />
-    <script></script>
+    <script>
+      function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+    </script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -59,7 +64,7 @@
     </div>
     <div id="blueWhale" class="page-container">
       <div class="page-header">
-        <a href="#top"><</a>
+        <span onclick="topFunction()"><</span>
         <h1>Blue Whale</h1>
       </div>
       <img
@@ -132,7 +137,7 @@
     </div>
     <div id="finWhale" class="page-container">
       <div class="page-header">
-        <a href="#top"><</a>
+        <span onclick="topFunction()"><</span>
         <h1>Fin Whale</h1>
       </div>
       <img
@@ -202,7 +207,7 @@
     </div>
     <div id="whaleShark" class="page-container">
       <div class="page-header">
-        <a href="#top"><</a>
+      <span onclick="topFunction()"><</span>
         <h1>Whale Shark</h1>
       </div>
       <img
@@ -274,7 +279,7 @@
     </div>
     <div id="giantSquid" class="page-container">
       <div class="page-header">
-        <a href="#top"><</a>
+       <span onclick="topFunction()"><</span>
         <h1>Giant Squid</h1>
       </div>
       <img
