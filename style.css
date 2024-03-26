@@ -129,7 +129,7 @@ li {
   display: flex;
   align-items: center;
 }
-.page-header a {
+.page-header span {
   margin-right: 62px;
   font-size: 32px;
   padding-right: 16px;
